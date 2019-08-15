@@ -67,30 +67,34 @@
           <div class="col-12 col-sm-3">
             <b>About</b>
             <br />
-            <%= link_to 'Team', '#' %>
+            <%= link_to 'Team', team_path %>
             <br/>
-            <%= link_to 'Careers', '#' %>
+            <%= link_to 'Careers', careers_path %>
             <br/>
-            <%= link_to 'Privacy Policy', '#' %>
+            <%= link_to 'Privacy Policy', privacy_path %>
           </div>
           <div class="col-12 col-sm-3">
             <b>Contact</b>
             <br />
-            my@email.com
+            dbonnaud123@gmail.com
             <br/>
-            One Kendall Square
+            123 Sample St
             <br/>
-            Cambridge MA, 02113
+            Irvine, CA 92620
           </div>
           <div class="col-12 col-sm-3 social">
             <b>Social</b>
             <br/>
             <br/>
-            <%= link_to 'https://github.com/davidbonnaud' do %>
+            <%= link_to 'https://github.com/davidbonnaud', target: :_blank do %>
               <span class="fa fa-github-square fa-2x social-button"></span>
             <% end %>
-            <span class="fa fa-facebook-square fa-2x social-button"></span>
-            <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <%= link_to 'https://facebook.com', target: :_blank do %>
+              <span class="fa fa-facebook-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://twitter.com', target: :_blank do %>
+              <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
           </div>
         </div>
       </div>

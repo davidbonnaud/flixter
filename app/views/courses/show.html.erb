@@ -23,7 +23,7 @@
 
             <br/>
             <br/>
-            <% if current_user %>
+            <% if current_user != @course.user %>
                 <% if current_user.enrolled_in?(@course) %>
                     <h3 class="badge badge-info">You Are Enrolled!</h3>
                 <% else %>
@@ -41,8 +41,10 @@
                         <% end %>
                     <% end %>
                 <% end %>
-            <% else %>
+            <% elsif current_user != @course.user %>
                 <h3 class="badge badge-info">Sign In to Enroll!</h3>
+            <% else %>
+                <h3 class="badge badge-info">You teach this course!</h3>
             <% end %>
         </div>
 
