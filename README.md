@@ -1,5 +1,5 @@
 # Flixter 
-A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships. Uses HTML/CSS/Boostrap for the front-end and Ruby on Rails/PostgreSQL for the back-end and database. See more here: http://flixter-david-bonnaud.herokuapp.com/
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships. Uses HTML/CSS/Boostrap for the front-end and Ruby on Rails/PostgreSQL for the back-end and database. 
 
 ## Homepage 
 <img src="flixter homepage.jpg" alt="Flixter Screenshot Homepage">
